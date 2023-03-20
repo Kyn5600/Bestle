@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-At any given time, Beslt will include a max of 2 versions. The newest, and most recent behind it. The newest version will always be the most stable.
+Bestle's versions will be serarated by version within the Bestle folder. The Weka folder contains the library. The Weka version will be the same for all iterations of Bestle.
 
 | Version | Supported          |
 | ------- | ------------------ |
