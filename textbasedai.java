@@ -14,7 +14,7 @@ import weka.classifiers.Evaluation;
 import weka.classifiers.functions.MultilayerPerceptron;
 import weka.core.SerializationHelper;
 
-public class textbasedai {
+public class textbasedai { 
 	
 	public File filename = new File("C:/Users/werer/eclipse-workspace/TextBasedAI/src/weka/api/conversational_english.csv");
 	public String modelFilename = "C:/Users/werer/eclipse-workspace/TextBasedAI/src/weka/api/BestleModel.model";

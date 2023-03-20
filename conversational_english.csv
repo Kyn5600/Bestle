@@ -1,4 +1,4 @@
-text,label
+text ,label
 can you tell me a joke,joke_request
 im not sure because i am an ai,regresponse
 where is the bus stop,regque
