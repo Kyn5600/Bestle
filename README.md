@@ -16,6 +16,6 @@ Bestle - A java project file for Eclipse <br>
 Versions - All versions of Bestle starting from 0.0.9 <br>
 <ul>
 0.0.9 - Released 3/15/23 <br>
-1.0.0 - Released 3/20/23 <br>
-</ul>
+1.0.0 - Released 3/20/23
+</ul> <br>
 Weka - Contains Weka.jar library
