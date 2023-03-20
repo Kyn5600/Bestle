@@ -3,8 +3,6 @@ package weka.api;
 import java.io.File;
 import java.io.IOException;
 
-import weka.core.DenseInstance;
-import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.CSVLoader;
 import weka.filters.Filter;
@@ -16,8 +14,8 @@ import weka.core.SerializationHelper;
 
 public class textbasedai {
 	
-	public File filename = new File("C:/Users/werer/eclipse-workspace/TextBasedAI/src/weka/api/conversational_english.csv");
-	public String modelFilename = "C:/Users/werer/eclipse-workspace/TextBasedAI/src/weka/api/BestleModel.model";
+	public File filename = new File("C:/Users/zlego/OneDrive/Documents/weka/api/Bestle/src/weka/api/conversational_english.csv");
+	public String modelFilename = "C:/Users/zlego/OneDrive/Documents/weka/api/Bestle/src/weka/api/BestleModel.model";
 	
 	protected Instances data;
 	

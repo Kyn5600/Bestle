@@ -1,0 +1,227 @@
+text,label
+can you tell me a joke,joke_request
+im not sure because i am an ai,regresponse
+where is the bus stop,regque
+how are you,feeling_question
+what are you doing,regque
+goodbye,farewell
+hi,greeting
+hello,greeting
+hello,greeting
+greetings,greeting
+whats up,regque
+im doing good,feeling_response
+tell me something funny,joke_request
+im doing great,feeling_response
+not bad,feeling_response
+hows it going,regque
+hows it goin,regque
+what are you up to,regque
+how are you,feeling_question
+hows it goin,regque
+how do you do,feeling_question
+good evening,greeting
+whats up,regque
+heyo,greeting
+hi,greeting
+i am an ai i cant help you,regresponse
+hows it going,feeling_question
+i dont know because i am an ai,regresponse
+greetings,greeting
+i do not know,regresponse
+whats up,regque
+hows it going,regque
+how should i know,regresponse
+bye,farewell
+see you later,farewell
+bye bye,farewell
+see you,farewell
+see ya,farewell
+see ya later,farewell
+why would i know,regresponse
+what are you up to,regque
+whatcha up to,regque
+hey,greeting
+tell me a joke please,joke_request
+i am good,regresponse
+what is up,regque
+tell me a joke,joke_request
+heyoo,greeting
+how are you today,feeling_question
+im pretty good myself,feeling_response
+whats hangin,regque
+my favorite book is harry potter,fav_book_response
+definitely harry potter,fav_book_response
+harry potter is my favorite book,fav_book_response
+harry potter is my favorite,fav_book_response
+harry potter for sure,fav_book_response
+it would have to be Harry Potter,fav_book_response
+harry potter is my absolute favorite,fav_book_response
+harry potter holds a special place in my heart,fav_book_response
+without hesitation harry potter,fav_book_response
+harry potter is my all-time favorite book,fav_book_response
+nothing beats harry potter,fav_book_response
+harry potter would have to be my favorite,fav_book_response
+harry potter has to be my favorite,fav_book_response
+the magical world of harry potter,fav_book_response
+the magical land of harry potter,fav_book_response
+this muggle likes harry potter,fav_book_response
+i like harry potter,fav_book_response
+i love harry potter,fav_book_response
+harry potter hands down,fav_book_response
+absolutely harry potter,fav_book_response
+easily harry potter,fav_book_response
+whats your favorite book,fav_book_que
+do you have a favorite book,fav_book_que
+my favorite food is bagel bytes,fav_food_response
+bagel bytes,fav_food_response
+it is bagel bytes,fav_food_response
+what is your favorite food,fav_food_que
+do you have a favorite food,fav_food_que
+im doing well thanks,feeling_response
+im good,feeling_response
+im pretty well,feeling_response
+im swell thanks,feeling_response
+im great,feeling_response
+tell me a new joke,joke_request
+tell me another joke,joke_request
+good,feeling_response
+sup,greeting
+pretty good,feeling_response
+im pretty fine,feeling_response
+how you doin,feeling_question
+how are you doing,feeling_question
+my favorite movie is the matrix,fav_movie_response
+the matrix,fav_movie_response
+my favorite movie is a movie,fav_movie_response
+whats your favorite book,fav_book_que
+harry potter,fav_book_response
+im well,feeling_response
+im doing fine,feeling_response
+how are you doing today,feeling_question
+whats your number one favorite movie,fav_movie_que
+what movie do you watch over and over again,fav_movie_que
+what movie do you love the most,fav_movie_que
+do you have a favorite movie,fav_movie_que
+whats the best movie you have ever seen,fav_movie_que
+whats your go-to movie when you are feeling down,fav_movie_que
+what movie always makes you smile,fav_movie_que
+im doing well,feeling_response
+do you have a favorite movie,fav_movie_que
+do you have a favorite food,fav_food_que
+later,farewell
+what is your favorite movie,fav_movie_que
+how you doing,feeling_question
+do you have a favorite movie,fav_movie_que
+what is your favorite movie,fav_movie_que
+im great,feeling_response
+what is your favorite movie,fav_movie_que
+whats your favorite movie,fav_movie_que
+whats your favorite book,fav_book_que
+what movie could you watch over and over,fav_movie_que
+whats your most favorite movie,fav_movie_que
+whats your most favorite book,fav_book_que
+what book is your favorite,fav_book_que
+what food is your favorite,fav_food_que
+give me a joke,joke_request
+what is your favorite food,fav_food_que
+do you have a favorite food,fav_food_que
+whats your favorite food,fav_food_que
+bye,farewell
+later,farewell
+see you tomorrow,farewell
+good night,farewell
+whats your favorite book,fav_book_que
+what is your favorite book,fav_book_que
+what is your favorite book,fav_book_que
+do you have a favorite book,fav_book_que
+how are you today,feeling_question
+im just a computer program but i am here to help,regresponse
+i dont have emotions like humans but i can assist you,regresponse
+my purpose is to provide helpful responses to your inquiries,regresponse
+as an ai im here to provide you with the best possible assistance,regresponse
+im not alive but i am always ready to help you out,regresponse
+my responses are generated by sophisticated algorithms and natural language processing,regresponse
+i exist solely to serve you and provide you with the information you need,regresponse
+i dont have feelings but i am designed to be as helpful as possible,regresponse
+im here to assist you with any questions or concerns you may have,regresponse
+im an ai language model and i am here to help you communicate better,regresponse
+how are you feeling today,feeling_question
+are you feeling happy or sad right now,feeling_question
+how has your day been going so far,feeling_question
+are you feeling tired or energized at the moment,feeling_question
+do you feel like talking about your feelings right now,feeling_question
+are you feeling stressed or relaxed today,feeling_question
+how would you describe your current mood,feeling_question
+hello,greeting
+hi there,greeting
+good morning,greeting
+hey ,greeting
+greetings,greeting
+salutations,greeting
+hi there,greeting
+hello there,greeting
+welcome,greeting
+howdy,greeting
+what can i help you with,regque
+how can i assist you today,regque
+what brings you here,regque
+whats your inquiry,regque
+what can i do for you,regque
+how can i be of service,regque
+whats on your mind,regque
+what do you need help with,regque
+how can i assist you right now,regque
+whats your question,regque
+goodbye have a great day,farewell
+take care and stay safe,farewell
+see you later alligator,farewell
+farewell,farewell
+bye for now ,farewell
+have a great day,farewell
+goodbye,farewell
+adios,farewell
+so long,farewell
+catch you later,farewell
+hello there,greeting
+hi there,greeting
+can you tell me a funny joke,joke_request
+do you have any good jokes,joke_request
+can you please send me a joke,joke_request
+can you share a joke with me,joke_request
+know any good jokes,joke_request
+slap a joke on me,joke_request
+can you tell me a good joke,joke_request
+whats a good joke,joke_request
+what is a good joke,joke_request
+give me a bad joke,joke_request
+i need to hear a joke,joke_request
+can you make me laugh,joke_request
+whats the latest joke you have heard,joke_request
+why did the chicken cross the road to get to the other side,joke
+whats black and white and red all over? a zebra with ketchup,joke
+whats black and white and red all over? a newspaper,joke
+whats black and white and red all over? a penguin in a blender,joke
+whats black and white and red all over? a carnivorous zebra,joke
+whats black and white and red all over? a zebra with a sweater,joke
+whats black and white and red all over? a penguin with a sweater,joke
+whats black and white and red all over? a zebra with ketchup,joke
+whats black and white and red all over? a carnivorous penguin,joke
+why did the chicken cross the road? to get to kfc,joke
+why did the chicken cross the road? to get away from kfc,joke
+why did the chicken cross the road? to get to kfc,joke
+why did the chicken cross the road? to get away from you,joke
+why did the chicken cross the road? to get to the hen on the other side,joke
+why did the chicken cross the road? to get to the other side,joke
+Why did the chicken cross the road? no one knows but the road will have its vengeance,joke
+Why did the rubber chicken cross the road? to stretch her legs.,joke
+Why did the chicken cross the road? to bock traffic.,joke
+Why did the chicken cross the road? i dont know.,joke
+Why did the chicken cross the road? who knows.,joke
+why ask me,regresponse
+why did you ask me,regresponse
+why are you asking me,regresponse
+how are you,feeling_question
+how you doing today,feeling_question
+how you doin today,feeling_question
+ahoy there,greeting
