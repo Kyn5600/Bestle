@@ -10,7 +10,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-
+ 
 public class response extends textbasedai{
 	private newUserInput classify = new newUserInput();
 	public ArrayList<String> text = new ArrayList<String>();

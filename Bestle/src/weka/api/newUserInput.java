@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class newUserInput extends textbasedai {
-	@Override
+	@Override 
     public void runner() throws Exception {
     	String inputText = "";
     	do {
