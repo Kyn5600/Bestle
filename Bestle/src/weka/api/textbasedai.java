@@ -38,12 +38,6 @@ public class textbasedai {
 			return null;
 		}
 	}
-	public void printCSV() throws IOException {
-		CSVLoader loader = new CSVLoader();
-		loader.setSource(filename);
-		data = loader.getDataSet();
-		System.out.println(data);
-	}
 	public void filterData(Instances data) throws Exception {
 		StringToWordVector filter = new StringToWordVector();
 		filter.setLowerCaseTokens(true);

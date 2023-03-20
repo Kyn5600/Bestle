@@ -27,19 +27,12 @@ public class controller{
 				runner1.runner();
 				continue;
 			case 3:
-				System.out.println("Running Bestle...");
 				response runner2 = new response();
 				runner2.runner();
 				continue;
 			case 4:
 				CSVToArff runner3 = new CSVToArff();
 				runner3.runner();
-				System.out.println("CSV to Arff completed.");
-				continue;
-			case 5:
-				System.out.println("Printing dataset. Secret unlocked.");
-				textbasedai runner4 = new textbasedai();
-				runner4.printCSV();
 				continue;
 		}
 		}
