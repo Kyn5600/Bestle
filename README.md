@@ -14,6 +14,8 @@ Versions prior to 0.0.9 existed in the past but have been lost in time. Prior ve
 # Heirarchy
 Bestle - A java project file for Eclipse <br>
 Versions - All versions of Bestle starting from 0.0.9 <br>
-*    0.0.9 - Released 3/15/23 <br>
-*    1.0.0 - Released 3/20/23 <br>
+<ul>
+0.0.9 - Released 3/15/23 <br>
+1.0.0 - Released 3/20/23 <br>
+</ul>
 Weka - Contains Weka.jar library
