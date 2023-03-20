@@ -1,0 +1,304 @@
+Dictionary size: 81
+
+The independent frequency of a class
+--------------------------------------
+greeting	16.0
+fav_book_response	3.0
+fav_movie_response	3.0
+fav_book_que	9.0
+feeling_question	11.0
+fav_food_response	2.0
+fav_food_que	10.0
+feeling_que	2.0
+joke	10.0
+feeling_reponse	2.0
+celeb_que	11.0
+time_waste_que	3.0
+travel_que	14.0
+name	2.0
+farewell	12.0
+fav_col_que	6.0
+regresponse	17.0
+celeb_response	2.0
+travel_response	2.0
+guilty_que	2.0
+time_waste_response	2.0
+regque	18.0
+feeling_response	22.0
+joke_request	7.0
+fav_color_response	3.0
+fav_movie_que	21.0
+
+The frequency of a word given the class
+-----------------------------------------
+   greeting	fav_book_re	fav_movie_r	fav_book_qu	feeling_que	fav_food_re	fav_food_qu	feeling_que	       joke	feeling_rep	  celeb_que	time_waste_	 travel_que	       name	   farewell	fav_col_que	regresponse	celeb_respo	travel_resp	 guilty_que	time_waste_	     regque	feeling_res	joke_reques	fav_color_r	fav_movie_q	
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       10.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	celebrity
+<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       21.0	movie
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	tell
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	ya
+<laplace=1>	<laplace=1>	<laplace=1>	        8.0	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       12.0	your
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	do
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        8.0	<laplace=1>	<laplace=1>	<laplace=1>	good
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	thanks
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	red
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	bar
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	later
+        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Hello
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	would
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	fine
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	me
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	should
+<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Potter
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	because
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       12.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	up
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       10.0	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	        8.0	        3.0	        9.0	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	       11.0	you
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Who
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	waste
+        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Hi
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	sure
+<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Harry
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	like
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	going
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        8.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	AI
+<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	        3.0	        5.0	is
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	Do
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	it
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        9.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	am
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	an
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	most
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        8.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	How
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	See
+        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Greetings
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       10.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	know
+        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	hello
+<laplace=1>	<laplace=1>	        3.0	        9.0	<laplace=1>	<laplace=1>	        9.0	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	        8.0	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	       14.0	favorite
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Where
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	goin
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        9.0	<laplace=1>	<laplace=1>	<laplace=1>	doing
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	other
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	don
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	color
+<laplace=1>	<laplace=1>	<laplace=1>	        9.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	book
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       15.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       18.0	<laplace=1>	<laplace=1>	<laplace=1>	I
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	My
+<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	<laplace=1>	<laplace=1>	       16.0	What
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Bye
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	how
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	into
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	not
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	are
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	and
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	have
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	place
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	says
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	over
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	        6.0	<laplace=1>	        4.0	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	        5.0	a
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	pretty
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	could
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       17.0	<laplace=1>	<laplace=1>	<laplace=1>	m
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	great
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       10.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	food
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	joke
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	bye
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        5.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	the
+<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        9.0	<laplace=1>	<laplace=1>	<laplace=1>	        8.0	s
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	what
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	meet
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	t
+<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	Whats
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	watch
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	Tell
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        6.0	<laplace=1>	<laplace=1>	<laplace=1>	well
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        7.0	<laplace=1>	       12.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	to
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        3.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	time
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	        4.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	visit
+<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	       10.0	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	<laplace=1>	travel
+
+
+@data
+'Can you tell me a joke?',joke_request
+'I'm not sure because I am an AI',regresponse
+'Why did the chicken cross the road?',joke
+'Where is the bus stop?',regque
+'how are you?',feeling_question
+'What are you doing?',feeling_question
+'I am an AI. How should I know?',regresponse
+'How are you?',feeling_question
+'Goodbye',farewell
+'Bye',farewell
+'Two whales walk into a bar. One says oOooOoooOOh. The other says What the hell Jim',joke
+'Hi!',greeting
+'I'm not sure. I am an AI',regresponse
+'Hello!',greeting
+'Greetings!',greeting
+'what's up?',regque
+'I'm doing good!',feeling_response
+'What's up?',regque
+'Tell me a joke',joke_request
+'Tell me something funny',joke_request
+'I'm doing great!',feeling_reponse
+'I am an AI. I don't know.',regresponse
+'Not bad!',feeling_response
+'Hi',greeting
+'Hello',greeting
+'how's it going?',regque
+'My name is Zach',name
+'how's it goin',regque
+'what are you up to?',regque
+'I don't know I am and AI',regresponse
+'How are you',feeling_question
+'How's it goin',regque
+'How do you do',feeling_question
+'A horse walks into a bar and the bartender says why the long face',joke
+'goodbye',farewell
+'hello',greeting
+'Good evening',greeting
+'I'm not sure.',regresponse
+'hello!',greeting
+'What's up',regque
+'Heyo',greeting
+'hi',greeting
+'I am an AI. I can't help you.',regresponse
+'How's it going?',feeling_question
+'I don't know because I am an AI.',regresponse
+'What's up!',regque
+'Greetings',greeting
+'I do not know.',regresponse
+'whats up',regque
+'hows it going',regque
+'How should I know',regresponse
+'bye',farewell
+'See you later',farewell
+'Bye bye',farewell
+'See you',farewell
+'See ya',farewell
+'see ya later',farewell
+'I don't know.',regresponse
+'How should I know?',regresponse
+'why would I know?',regresponse
+'What are you up to?',regque
+'Whats up?',regque
+'whatcha up to?',regque
+'Hey',greeting
+'Whats up',regque
+'tell me a joke',joke_request
+'Can you tell me a joke please?',joke
+'haha. 69. Nice',joke
+'I am good',regresponse
+'What is up?',regque
+'Tell me a joke please',joke_request
+'To get to the other side.',joke
+'how are you',feeling_question
+'Hey tell me a joke',joke
+'what's up',regresponse
+'My favorite color is red!',fav_color_response
+'What is your favorite color?',fav_col_que
+'Heyyy',greeting
+'Heyoo',greeting
+'How are you today?',feeling_question
+'I am good.',feeling_response
+'What's your favorite color?',fav_col_que
+'I'm great!',feeling_response
+'I'm pretty good myself.',feeling_response
+'I'm doing well.',feeling_response
+'I'm doing pretty good',feeling_response
+'What is your favorite color',regresponse
+'My favorite color is red',fav_color_response
+'What's hangin',regque
+'What is your favorite book?',fav_book_que
+'My favorite book is Harry Potter',fav_book_response
+'What's your favorite book?',fav_book_que
+'Do you have a favorite book?',fav_book_que
+'What is your favorite food?',fav_food_que
+'What's your favorite food?',fav_food_que
+'My favorite food is bagel bytes',fav_food_response
+'Do you have a favorite food?',fav_food_que
+'I'm doing well thanks',feeling_response
+'I'm good!',feeling_response
+'I'm pretty well',feeling_response
+'I'm swell thanks',feeling_response
+'I'm great',feeling_response
+'Tell me a new joke',joke
+'Tell me another joke',joke
+'good',feeling_response
+'sup',greeting
+'Pretty good.',feeling_response
+'I'm pretty fine',feeling_response
+'How you doin?',feeling_question
+'How goes it?',farewell
+'How are you doing?',feeling_response
+'What is your favorite movie?',fav_movie_que
+'My favorite movie is The Matrix',fav_movie_response
+'Where would you like to travel?',travel_que
+'I am on the internet. I already exist all over the world!',travel_response
+'How do you waste time?',time_waste_que
+'Using Microsoft Edge to look something up',time_waste_response
+'Which celebrity would you like to meet?',celeb_que
+'I'd love to meet X AE A-XII Musk',celeb_response
+'What celebrity would you like to meet?',celeb_que
+'What's your favorite movie?',fav_movie_que
+'Whats your favorite book',fav_book_que
+'Harry Potter',fav_book_response
+'Would you like to travel somewhere?',travel_que
+'How do you like to waste time?',time_waste_que
+'Where do you want to travel',travel_que
+'I'm well.',feeling_response
+'I'm doing fine.',feeling_response
+'Where would you like to travel someday?',travel_que
+'How are you doing today?',feeling_que
+'I'm doing great!',feeling_response
+'What's your favorite book',fav_book_que
+'whats your favorite movie',fav_movie_que
+'Would you like to meet a celebrity?',celeb_que
+'Where would you like to travel',travel_que
+'What is your favorite travel destination?',travel_que
+'Do you have a favorite travel spot?',travel_que
+'What's your favorite place to visit?',travel_que
+'What's your favorite city to visit?',travel_que
+'Do you have a favorite country to travel to?',travel_que
+'Where's your favorite place to go on vacation?',travel_que
+'Whats your favorite place to visit',travel_que
+'What's your favorite movie of all time?',fav_movie_que
+'What's your number one favorite movie?',fav_movie_que
+'What movie do you watch over and over again?',fav_movie_que
+'What movie do you love the most?',fav_movie_que
+'Do you have a favorite movie?',fav_movie_que
+'What's the best movie you've ever seen?',fav_movie_que
+'What's your go-to movie when you're feeling down?',fav_movie_que
+'What movie always makes you smile?',fav_movie_que
+'What movie could you watch a million times?',fav_movie_que
+'I'm doing well.',feeling_response
+'Where'd you like to travel?',travel_que
+'Is there a celebrity you'd like to meet?',celeb_que
+'do you have a favorite movie?',fav_movie_que
+'Do you have a favorite celebrity?',celeb_que
+'Do you have a guilty pleasure?',guilty_que
+'Whats your favorite color',fav_col_que
+'What is your favorite color?',fav_col_que
+'You got a favorite food?',fav_food_que
+'later',farewell
+'What is your favorite movie?',fav_movie_que
+'How you doing?',feeling_question
+'Do you have a favorite movie',fav_movie_que
+'What is your favorite movie',fav_movie_que
+'I'm great',feeling_response
+'What is your favorite movie?',fav_movie_que
+'what's your favorite movie',fav_movie_que
+'what's your favorite book',fav_book_que
+'what's your favorite color',fav_col_que
+'What movie could you watch over and over?',fav_movie_que
+'What's your most favorite movie?',fav_movie_que
+'Whats your most favorite book?',fav_book_que
+'What book is your favorite?',fav_book_que
+'What food is your favorite?',fav_food_que
+'What's your favorite food?',fav_food_que
+'gimme a joke',joke_request
+'What is your favorite food?',fav_food_que
+'Do you have a favorite food?',fav_food_que
+'Who's your favorite celebrity ',celeb_que
+'Who's your favorite celebrity?',celeb_que
+'Who is your favorite celebrity?',celeb_que
+'What's your favorite movie',fav_movie_response
+'What's your fav food',fav_food_que
+'What celeb would you like to meet',celeb_que
+'What celebrity would you like to meet',celeb_que
