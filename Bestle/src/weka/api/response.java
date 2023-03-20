@@ -2,7 +2,6 @@ package weka.api;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.functions.MultilayerPerceptron;
-import weka.core.Attribute;
 import weka.core.DenseInstance;
 import weka.core.Instance;
 import weka.core.Instances;
@@ -11,12 +10,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class response extends textbasedai{
 	private newUserInput classify = new newUserInput();
 	public ArrayList<String> text = new ArrayList<String>();
 	public ArrayList<String> label = new ArrayList<String>();
+	public String predictedClassLabel = "";
 	@Override
 	public void runner() throws Exception {
 		String inputText = "";
@@ -53,7 +52,7 @@ public class response extends textbasedai{
 	    newInstance.setValue(0, inputText);
 	    newInstance.setMissing(1);
 	    double predictedClassValue = classifier.classifyInstance(newInstance);
-	    String predictedClassLabel = thisdata.classAttribute().value((int) predictedClassValue);
+	    predictedClassLabel = thisdata.classAttribute().value((int) predictedClassValue);
 		//System.out.println("Classified text as: " + predictedClassLabel);       Replace with random reply of predicted value
 	    getReply(predictedClassLabel,data);
 	    predictedClassLabel = "";
@@ -62,30 +61,29 @@ public class response extends textbasedai{
 		setArrays(data);
 		switch(predictedClassLabel) {
 			case "feeling_question":
-				System.out.println(getReplyString("feeling_response"));
+				System.out.println(getReplyString(predictedClassLabel = "feeling_response")); break;
 			case "joke_request":
-				System.out.println(getReplyString("joke"));
+				System.out.println(getReplyString(predictedClassLabel = "joke")); break;
 			case "regque":
-				System.out.println(getReplyString("regresponse"));
+				System.out.println(getReplyString(predictedClassLabel = "regresponse")); break;
 			case "fav_book_que":
-				System.out.println(getReplyString("fav_book_response"));
+				System.out.println(getReplyString(predictedClassLabel = "fav_book_response")); break;
 			case "fav_food_que":
-				System.out.println(getReplyString("fav_book_response"));
+				System.out.println(getReplyString(predictedClassLabel = "fav_book_response")); break;
 			case "fav_movie_que":
-				System.out.println(getReplyString("fav_movie_response"));
+				System.out.println(getReplyString(predictedClassLabel = "fav_movie_response")); break;
 			default:
-				System.out.println(getReplyString(predictedClassLabel));
+				System.out.println(getReplyString(predictedClassLabel)); break;
 		}
 	}
 	public String getReplyString(String predictedClass) {
 		ArrayList<Integer> arrayIndex = new ArrayList<Integer>();
-		for(int i = 0; i < label.size();i++) {
-			if(label.get(i).equals("feeling_response")) {
+		for(int i = 0; i < text.size();i++) {
+			if(label.get(i).equals(predictedClass)) {
 				arrayIndex.add(i);
 			}
 		}
 		return "Bestle: " + text.get(arrayIndex.get((int)(Math.random() * arrayIndex.size())));
-
 	}
 	public void setArrays(String data) throws IOException {
 		BufferedReader objReader = new BufferedReader(new FileReader(data));

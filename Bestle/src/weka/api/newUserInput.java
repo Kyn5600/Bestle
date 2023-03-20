@@ -78,8 +78,7 @@ public class newUserInput extends textbasedai {
        Instance newInstance = new DenseInstance(2);
        newInstance.setDataset(thisdata);
        newInstance.setValue(0, inputText);
-       newInstance.setMissing(1);
-       Attribute classAttr = thisdata.classAttribute();  
+       newInstance.setMissing(1);  
        double predictedClassValue = classifier.classifyInstance(newInstance);
        String predictedClassLabel = thisdata.classAttribute().value((int) predictedClassValue);
        System.out.println("Classified text as: " + predictedClassLabel);
