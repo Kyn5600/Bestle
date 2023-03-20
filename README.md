@@ -7,3 +7,6 @@ Both Testing and Bestle programs have a hidden input of "eval", which will print
 Possible future utilizations will include various personality types. These will be included for a more personal feel and the possibility of importing the AI to a game or something of the like for NPCs. 
 ### If you would like to contact me about other possible uses, please email me at kyn5600@gmail.com. If you wish to use Bestle in any format outside of its base program (such as in a game), please contact me for co-author acknowledgement. Feel free to contact me if you wish to work with me on this. 
 Have fun!
+
+# Prior Versions
+Versions prior to 0.0.9 existed in the past but have been lost in time. Prior versions include the use of a MNB classifier but was found subpar to MLP. For inquiries about previous versions, please email me at the address above.
