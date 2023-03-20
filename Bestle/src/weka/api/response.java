@@ -16,8 +16,17 @@ public class response extends textbasedai{
 	public ArrayList<String> text = new ArrayList<String>();
 	public ArrayList<String> label = new ArrayList<String>();
 	public String predictedClassLabel = "";
+	public String name;
 	@Override
 	public void runner() throws Exception {
+		String namechoice = classify.userInput("Would you like to name the bot? Default is \"Bot\" (y/n): ");
+		namechoice.toLowerCase();
+		if(namechoice.equals("y")) {
+			name = classify.userInput("Enter name: ");
+		} else {
+			name = "Bot";
+			System.out.println( name + ": Alright. Let's continue.");
+		}
 		String inputText = "";
     	do {
     		inputText = classify.userInput("You: ");
@@ -41,6 +50,7 @@ public class response extends textbasedai{
 			classify(data,inputText);
 		} catch(IllegalArgumentException e) {
 			inputText = classify.userInput("Data not found. Please input new text: ");
+			inputClassifier(data,inputText);
 		}
 	}
 	public void classify(String data,String inputText) throws Exception {
@@ -61,7 +71,13 @@ public class response extends textbasedai{
 		setArrays(data);
 		switch(predictedClassLabel) {
 			case "feeling_question":
-				System.out.println(getReplyString(predictedClassLabel = "feeling_response")); break;
+				System.out.println(getReplyString(predictedClassLabel = "feeling_response"));
+				double random = Math.random(); //for testing
+				if(random>0.5f) {
+					System.out.println(getReplyString(predictedClassLabel = "feeling_question"));
+				} break;
+			case "feeling_response":
+				System.out.println(getReplyString(predictedClassLabel = "feeling_response_response")); break;
 			case "joke_request":
 				System.out.println(getReplyString(predictedClassLabel = "joke")); break;
 			case "regque":
@@ -69,7 +85,7 @@ public class response extends textbasedai{
 			case "fav_book_que":
 				System.out.println(getReplyString(predictedClassLabel = "fav_book_response")); break;
 			case "fav_food_que":
-				System.out.println(getReplyString(predictedClassLabel = "fav_book_response")); break;
+				System.out.println(getReplyString(predictedClassLabel = "fav_food_response")); break;
 			case "fav_movie_que":
 				System.out.println(getReplyString(predictedClassLabel = "fav_movie_response")); break;
 			default:
@@ -83,7 +99,7 @@ public class response extends textbasedai{
 				arrayIndex.add(i);
 			}
 		}
-		return "Bestle: " + text.get(arrayIndex.get((int)(Math.random() * arrayIndex.size())));
+		return name + ": " + text.get(arrayIndex.get((int)(Math.random() * arrayIndex.size())));
 	}
 	public void setArrays(String data) throws IOException {
 		BufferedReader objReader = new BufferedReader(new FileReader(data));

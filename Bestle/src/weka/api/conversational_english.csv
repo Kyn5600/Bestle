@@ -147,6 +147,8 @@ im here to assist you with any questions or concerns you may have,regresponse
 im an ai language model and i am here to help you communicate better,regresponse
 how are you feeling today,feeling_question
 are you feeling happy or sad right now,feeling_question
+happy,feeling_response
+sad,feeling_response
 how has your day been going so far,feeling_question
 are you feeling tired or energized at the moment,feeling_question
 do you feel like talking about your feelings right now,feeling_question
@@ -224,3 +226,7 @@ how are you,feeling_question
 how you doing today,feeling_question
 how you doin today,feeling_question
 ahoy there,greeting
+thats good to hear,feeling_response_response
+that is good to hear,feeling_response_response
+bagel bytes are my favorite,fav_food_response
+bagel bytes have to be my favorite,fav_food_response
