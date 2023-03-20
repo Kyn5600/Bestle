@@ -10,3 +10,10 @@ Have fun!
 
 # Prior Versions
 Versions prior to 0.0.9 existed in the past but have been lost in time. Prior versions include the use of a MNB classifier but was found subpar to MLP. For inquiries about previous versions, please email me at the address above.
+
+# Heirarchy
+Bestle - A java project file for Eclipse
+Versions - All versions of Bestle starting from 0.0.9
+    0.0.9 - Released 3/15/23
+    1.0.0 - Released 3/20/23
+Weka - Contains Weka.jar library
