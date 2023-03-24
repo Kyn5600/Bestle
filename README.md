@@ -12,7 +12,6 @@ Have fun!
 Versions prior to 0.0.9 existed in the past but have been lost in time. Prior versions include the use of a MNB classifier but was found subpar to MLP. For inquiries about previous versions, please email me at the address above.
 
 # Heirarchy
-Bestle - A java project file for Eclipse <br>
 Versions - All versions of Bestle starting from 0.0.9 <br>
 <ul>
 0.0.9 - Released 3/15/23 <br>
